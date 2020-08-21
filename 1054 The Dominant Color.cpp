@@ -6,7 +6,7 @@ int main() {
 	cin >> m >> n;
 	map<int, int>CountColor;
 	for (i = 0; i < m * n; i++) {
-		scanf_s("%d", &t);
+		scanf("%d", &t);
 		CountColor[t]++;
 		if (CountColor[t] > m * n / 2)	break;
 	}
